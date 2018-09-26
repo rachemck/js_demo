@@ -1,0 +1,51 @@
+#offscreen-nav ul{
+  list-style-type: none;
+  font-size: 2em;
+}
+
+#offscreen-nav{
+  background: #ffffff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0px;
+  overflow: hidden;
+}
+
+#close-btn{
+  float: right;
+  padding: 5px;
+}
+
+#more-info{
+  color: red;
+}
+
+#tooltip{
+  background: white;
+  width: 150px;
+  height: 150px;
+  border: 1px solid;
+  box-shadow: 2px 2px 2px 2px #eeeeee;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+
+#blur-filter {
+    -webkit-filter: blur(2px);
+    -moz-filter: blur(2px);
+    -o-filter: blur(2px);
+    -ms-filter: blur(2px);
+    filter: blur(2px);
+}
+
+#arrow-up {
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid black;
+  margin-top: -4px;
+}
